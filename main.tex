@@ -1,0 +1,153 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Define Article %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\documentclass{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Using Packages %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{empheq}
+\usepackage{mdframed}
+\usepackage{booktabs}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{psfrag}
+\usepackage{pgfplots}
+\usepackage{bm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Other Settings
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Page Setting %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\geometry{a4paper}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Define some useful colors %%%%%%%%%%%%%%%%%%%%%%%%%%
+\definecolor{ocre}{RGB}{243,102,25}
+\definecolor{mygray}{RGB}{243,243,244}
+\definecolor{deepGreen}{RGB}{26,111,0}
+\definecolor{shallowGreen}{RGB}{235,255,255}
+\definecolor{deepBlue}{RGB}{61,124,222}
+\definecolor{shallowBlue}{RGB}{235,249,255}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%% Define an orangebox command %%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand\orangebox[1]{\fcolorbox{ocre}{mygray}{\hspace{1em}#1\hspace{1em}}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%% English Environments %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newtheoremstyle{mytheoremstyle}{3pt}{3pt}{\normalfont}{0cm}{\rmfamily\bfseries}{}{1em}{{\color{black}\thmname{#1}~\thmnumber{#2}}\thmnote{\,--\,#3}}
+\newtheoremstyle{myproblemstyle}{3pt}{3pt}{\normalfont}{0cm}{\rmfamily\bfseries}{}{1em}{{\color{black}\thmname{#1}~\thmnumber{#2}}\thmnote{\,--\,#3}}
+\theoremstyle{mytheoremstyle}
+\newmdtheoremenv[linewidth=1pt,backgroundcolor=shallowGreen,linecolor=deepGreen,leftmargin=0pt,innerleftmargin=20pt,innerrightmargin=20pt,]{theorem}{Theorem}[section]
+\theoremstyle{mytheoremstyle}
+\newmdtheoremenv[linewidth=1pt,backgroundcolor=shallowBlue,linecolor=deepBlue,leftmargin=0pt,innerleftmargin=20pt,innerrightmargin=20pt,]{definition}{Definition}[section]
+\theoremstyle{myproblemstyle}
+\newmdtheoremenv[linecolor=black,leftmargin=0pt,innerleftmargin=10pt,innerrightmargin=10pt,]{problem}{Problem}[section]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Plotting Settings %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepgfplotslibrary{colorbrewer}
+\pgfplotsset{width=8cm,compat=1.9}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Title & Author %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\title{How Do Big Data And AI Both Individually And In Combination Impact Business Performance?}
+\author{Pouya Ataei}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+    \maketitle
+
+
+\section{Research Framework}
+
+\subsection{Research Question}
+``How do Big Data and Artificial Intelligence, both individually and in combination, impact business performance?''
+
+\subsection{Systematic Literature Review}
+\begin{itemize}
+    \item Search for studies on Big Data impact on business performance
+    \item Search for studies on AI impact on business performance
+    \item Search for studies that explicitly address the combined impact of Big Data and AI
+\end{itemize}
+
+\subsection{Categorization}
+\begin{itemize}
+    \item Big Data studies
+    \item AI studies
+    \item Combined Big Data and AI studies
+\end{itemize}
+
+\subsection{Analysis Framework}
+\begin{enumerate}[label=\alph*)]
+    \item Individual impacts:
+    \begin{itemize}
+        \item Impact of Big Data on business performance
+        \item Impact of AI on business performance
+    \end{itemize}
+    
+    \item Synergistic effects:
+    \begin{itemize}
+        \item How Big Data enhances AI capabilities
+        \item How AI improves Big Data analytics
+    \end{itemize}
+    
+    \item Combined impact on various aspects of business performance:
+    \begin{itemize}
+        \item Operational efficiency
+        \item Decision-making processes
+        \item Customer experience
+        \item Innovation and product development
+        \item Market competitiveness
+        \item Financial performance
+    \end{itemize}
+\end{enumerate}
+
+\subsection{Meta-Analysis and Network Analysis}
+\begin{itemize}
+    \item Conduct separate meta-analyses for Big Data studies and AI studies
+    \item Conduct a meta-analysis on studies that examine combined effects
+    \item Perform network analysis on the results from the two SLRs
+\end{itemize}
+
+\subsection{Interrelation Analysis}
+\begin{itemize}
+    \item Identify common themes and patterns across Big Data and AI studies
+    \item Analyze how Big Data and AI complement each other
+    \item Examine case studies where both technologies are implemented together
+\end{itemize}
+
+\subsection{Moderating Factors}
+\begin{itemize}
+    \item Industry sector differences
+    \item Company size and resources
+    \item Technological maturity of the organization
+    \item Data quality and availability
+    \item Regulatory environment
+\end{itemize}
+
+\subsection{Challenges and Limitations}
+\begin{itemize}
+    \item Data privacy and security concerns
+    \item Integration challenges
+    \item Skill gap and talent acquisition
+    \item Ethical considerations
+\end{itemize}
+
+\subsection{Future Trends}
+\begin{itemize}
+    \item Emerging technologies that combine Big Data and AI
+    \item Predicted future impacts on business models and strategies
+\end{itemize}
+
+\subsection{Practical Implications}
+\begin{itemize}
+    \item Best practices for implementing Big Data and AI together
+    \item Recommendations for businesses looking to leverage both technologies
+\end{itemize}
+
+    
+\end{document}
